@@ -1,0 +1,8 @@
+The solution is to use the correct class name in the CSS selector. The following corrected CSS rule will correctly apply the styles to the element with the class "example-class":
+
+```css
+.example-class {
+  color: blue;
+}
+```
+This simple fix ensures that the styles are applied correctly to the intended HTML element.

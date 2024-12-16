@@ -1,0 +1,15 @@
+The following CSS rule is trying to select an element with the class "example", but the class name is actually "example-class". This will result in the styles not being applied to the intended element.
+
+```css
+.example {
+  color: blue;
+}
+```
+
+The correct selector should be:
+
+```css
+.example-class {
+  color: blue;
+}
+```
